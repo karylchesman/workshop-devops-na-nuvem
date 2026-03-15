@@ -5,8 +5,8 @@ on:
     branches:
       - main
 env:
-  BACKEND_REPOSITORY: workshop/production/backend
-  FRONTEND_REPOSITORY: workshop/production/frontend
+  BACKEND_REPOSITORY: workshop-dnv/production/backend
+  FRONTEND_REPOSITORY: workshop-dnv/production/frontend
   IMAGE_TAG: ${{ github.sha }}
 
 permissions:
